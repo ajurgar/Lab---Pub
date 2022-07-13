@@ -1,9 +1,9 @@
 class Pub:
 
-    def __init__(self, name, till):
+    def __init__(self, name, till, drinks):
         self.name = name
         self.till = till
-        self.drinks = ["Bacardi", "Jack Daniels", "Tequila"]
+        self.drinks = drinks
 
     def increase_till(self, amount):
         self.till += amount
